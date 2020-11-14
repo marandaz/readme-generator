@@ -42,7 +42,7 @@ inquirer
                 "MIT",
                 // "Apache",
                 // "GNU", 
-                "'General Public License v3.0'"
+                "General Public License v3.0"
                 // "BSD 2-Clause 'Simplified' License",
                 // "BSD 3-Clause 'New' or 'Revised' License",
                 // "Boost Software License 1.0",
