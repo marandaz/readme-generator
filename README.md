@@ -5,10 +5,6 @@
 
 <br />
 <p align="center">
-  <a href="https://github.com/marandaz/readme-generator">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
   <h3 align="center">Readme Generator</h3>
 
   <p align="center">
@@ -40,8 +36,8 @@
 
 
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![README Generator Gif](/images-and-gifs/readmeGif.gif)
+The Readme Generator is geared towards making devopment easier for the contributing dev while concurrently creating a standardized format for future repositories or projects. This is a command-line application that dynamicaklly generates a README.md file from user input using inquirer. 
 
 
 ## Installation
@@ -60,10 +56,9 @@ npm install
 
 ## Usage
 
-The Readme Generator is geared towards making devopment easier for the contributing dev while concurrently creating a standardized format for future repositories or projects. This is a command-line application that dynamicaklly generates a README.md file from user input using inquirer. Click the image below for a step by step walk through.
+The project uses inquirer and fs to create a standardized readme.  To use this, you will need to use node.js. Once running in your terminal, you follow the prompts. The responses to the questions are compiled to create a robust collection of information used when your readme is generated. Click the image below for a step by step walk through.
 <br>
 [![Example README using this app](./assets/readme.png)](https://youtu.be/n6MXNhV-ZuM)
-
 
 
 
