@@ -1,7 +1,7 @@
 # README Generator
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/maranda-zwieschowski/)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555)](https://www.linkedin.com/in/maranda-zwieschowski/)
 
 <br />
 <p align="center">
