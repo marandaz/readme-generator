@@ -60,7 +60,7 @@ npm install
 
 ## Usage
 
-The Readme Generator is geared towards making devopment easier for the contributing dev while concurrently creating a standardized format for future repositories or projects. This is a command-line application that dynamicaklly generates a README.md file from user input using inquirer. Click the image below for a step by step walk thorugh.
+The Readme Generator is geared towards making devopment easier for the contributing dev while concurrently creating a standardized format for future repositories or projects. This is a command-line application that dynamicaklly generates a README.md file from user input using inquirer. Click the image below for a step by step walk through.
 <br>
 [![Example README using this app](./assets/readme.png)](https://youtu.be/n6MXNhV-ZuM)
 
