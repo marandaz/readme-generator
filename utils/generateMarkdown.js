@@ -2,7 +2,7 @@
 function generateMarkdown(data) {
   console.log("genMarkdown", data);
   return `
-  # ${data.projectTitle} \n ![License](https://img.shields.io/badge/License-${data.licenseType}-success) \n 
+  # ${data.projectTitle} \n ![License](https://img.shields.io/badge/License-${data.licenseType}-success.svg) \n 
   
   ## Table of Contents
   * [Description](#description)
