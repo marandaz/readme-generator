@@ -9,31 +9,31 @@ inquirer
             message: "What is your project title?",
             name: "projectTitle"
         },
-        // {
-        //     type: "input",
-        //     message: "Enter a project description.",
-        //     name: "description"
-        // },
-        // {
-        //     type: "input",
-        //     message: "Enter installation instructions",
-        //     name: "installation"
-        // },
-        // {
-        //     type: "input",
-        //     message: "Enter a usage info.",
-        //     name: "usage"
-        // },
-        // {
-        //     type: "input",
-        //     message: "Enter contribution guidelines.",
-        //     name: "contribution"
-        // },
-        // {
-        //     type: "input",
-        //     message: "Enter test instructions.",
-        //     name: "testInstructions"
-        // },
+        {
+            type: "input",
+            message: "Enter a project description.",
+            name: "description"
+        },
+        {
+            type: "input",
+            message: "Enter installation instructions",
+            name: "installation"
+        },
+        {
+            type: "input",
+            message: "Enter a usage info.",
+            name: "usage"
+        },
+        {
+            type: "input",
+            message: "Enter contribution guidelines.",
+            name: "contribution"
+        },
+        {
+            type: "input",
+            message: "Enter test instructions.",
+            name: "testInstructions"
+        },
         {
             type: "list",
             message: "Choose a license",
@@ -43,23 +43,22 @@ inquirer
                 "Apache",
                 "GNU"
             ]
+        },
+        {
+            type: "input",
+            message: "Enter your GitHub username.",
+            name: "githubUsername",
+        },
+        {
+            type: "input",
+            message: "Enter your E-mail address.",
+            name: "email",
+        },
+        {
+            type: "input",
+            message: "Enter instructions on how to reach you with additional questions.",
+            name: "contactInfo",
         }
-        // ,
-        // {
-        //     type: "input",
-        //     message: "Enter your GitHub username.",
-        //     name: "githubUsername",
-        // },
-        // {
-        //     type: "input",
-        //     message: "Enter your E-mail address.",
-        //     name: "email",
-        // },
-        // {
-        //     type: "input",
-        //     message: "Enter instructions on how to reach you with additional questions.",
-        //     name: "contactInfo",
-        // }
     ])
 
 .then(function(response) {

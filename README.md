@@ -1,57 +1,94 @@
-# readme-generator
+# README Generator
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/maranda-zwieschowski/]
+
+<br />
+<p align="center">
+  <a href="https://github.com/marandaz/readme-generator">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">Readme Generator</h3>
+
+  <p align="center">
+    A README generator geared at making a standardized, high quality format.
+    <br />
+    <a href="https://github.com/marandaz/readme-generator"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/marandaz/readme-generator">View Demo</a>
+    ·
+    <a href="https://github.com/marandaz/readme-generator/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/marandaz/readme-generator/issues">Request Feature</a>
+  </p>
+</p>
 
 
+## Table of Contents
 
-## Acceptance Criteria
-
-```md
-GIVEN a command-line application that accepts user input
-WHEN I am prompted for information about my application repository
-THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-
-
-WHEN I enter my project title
-<!-- input -->
-THEN this is displayed as the title of the README
-
-WHEN I enter 
-* a description,
-* installation instructions, 
-* usage information, 
-* contribution guidelines, 
-* and test instructions
-<!-- input -->
-
-THEN this information is added to the sections of the README entitled 
-* Description, 
-* Installation, 
-* Usage, 
-* Contributing, 
-* and Tests
-<!-- input -->
-
-WHEN I choose a license for my application from a list of options
-<!-- list -->
-
-THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
+* [About the Project](#about-the-project) 
+* [Installation](#installation)
+* [Usage](#usage)
+* [Roadmap](#roadmap)
+* [Contributing](#contributing)
+* [License](#license)
+* [Contact](#contact)
+* [Acknowledgements](#acknowledgements)
 
 
-WHEN I enter my GitHub username
-<!-- input -->
+## About The Project
 
-THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-WHEN I enter my email address
-<!-- input -->
 
-THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
+## Installation
 
-WHEN I click on the links in the Table of Contents
-THEN I am taken to the corresponding section of the README
-<!-- Look in the supplemental folder from the first week for an example OR "table of contents" from my existing readme -->
+For this project you will need to install inquirer by inputing npm i inquirer
 
+1. Clone the repo
+```sh
+git clone https://github.com/marandaz/readme-generator.git
+```
+2. Install NPM packages
+```sh
+npm install
 ```
 
 
-<!-- Resource -->
-<!-- https://shields.io/ -->
+## Usage
+
+The Readme Generator is geared towards making devopment easier for the contributing dev while concurrently creating a standardized format for future repositories or projects. This is a command-line application that dynamicaklly generates a README.md file from user input using inquirer.
+
+
+## Roadmap
+
+See the [open issues](https://github.com/marandaz/readme-generator/issues) for a list of proposed features (and known issues).
+
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
+## License
+
+Distributed under the MIT License.
+
+## Contact
+
+Your Name - mrzwies@gmail.com
+
+Project Link: [https://github.com/marandaz/readme-generator](https://github.com/marandaz/readme-generator)
+
+## Acknowledgements
+
+* **My Instructor** Shout out to my Bootcamp instructor, John Young, for helping pave the path to a brighter future.  
+* [Shields](https://shields.io/)
